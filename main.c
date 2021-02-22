@@ -16,7 +16,7 @@ int main(void)
 	int a = open_your_eyes(&n, 10);
 	printf("a result: %d\n", a);
 	int b = open_your_eyes(NULL, 10);
-	printf("b result: %d\n");
+	printf("b result: %d\n", b);
 
 	
 	return 0;
