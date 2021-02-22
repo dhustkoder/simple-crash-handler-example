@@ -1,0 +1,13 @@
+CRASH SIGNAL: 11
+SINGAL NUMBER: 11
+ERRNO: 0
+SIGNAL CODE: 1
+MEMORY VIOLATION ADDRESS => 0x0
+INSTRUCTION ADDRESS => 0x00000001002A0B7F
+::: CALL STACK :::
+0 = 0   crasher.exe                         0x00000001002a0bf3 crash_handler + 99
+1 = 1   libsystem_platform.dylib            0x00007fff70c585fd _sigtramp + 29
+2 = 2   ???                                 0x00000001093484b4 0x0 + 4449404084
+3 = 3   crasher.exe                         0x00000001002a0b52 main + 98
+4 = 4   libdyld.dylib                       0x00007fff70a5fcc9 start + 1
+5 = 5   ???                                 0x0000000000000001 0x0 + 1
