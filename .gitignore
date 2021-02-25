@@ -1,7 +1,13 @@
 *.exe
-*.o
 *.obj
+*.vs
+*.vscode
+*.exp
 *.lib
-*.a
 *.dll
-*.so
+.vs/
+*.ilk
+*.pdb
+*.un*
+*~
+
