@@ -1,12 +1,17 @@
-CRASH SIGNAL: 11
-SINGAL NUMBER: 11
-ERRNO: 0
-SIGNAL CODE: 1
-MEMORY VIOLATION ADDRESS => 0x0
-INSTRUCTION ADDRESS => 0x00000001043A9BF6
-::: CALL STACK :::
-0 = 0   crasher.exe                         0x00000001043a9c54 crash_handler + 84
-1 = 1   libsystem_platform.dylib            0x00007fff70c585fd _sigtramp + 29
-2 = 2   ???                                 0x0000000113eb4420 0x0 + 4629152800
-3 = 3   crasher.exe                         0x00000001043a9bca main + 74
-4 = 4   libdyld.dylib                       0x00007fff70a5fcc9 start + 1
+:: CRASH REPORT ::
+ExceptionCode    =>  C0000005
+ExceptionFlags   =>  0
+ExceptionAddress =>  7032
+:: BACKTRACE ::
+0 => 7090
+1 => 7BE3BC247
+2 => 7C07151E3
+3 => 7C06FC186
+4 => 7C071197F
+5 => 7C06BB754
+6 => 7C07104AE
+7 => 7032
+8 => 6F0C
+9 => 75BC
+10 => 7BEB37034
+11 => 7C06BD241
